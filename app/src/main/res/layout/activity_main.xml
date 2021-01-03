@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lytContenedor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Fecha" />
+
+    <TextView
+        android:id="@+id/fechadia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+         />
+
+    <TextView
+        android:id="@+id/fechamescadena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fechamescadena" />
+
+    <TextView
+        android:id="@+id/fechames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+         />
+
+    <TextView
+        android:id="@+id/fechaanocadena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fechaanocadena" />
+
+    <TextView
+        android:id="@+id/fechaano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+         />
+
+    <TextView
+        android:id="@+id/dns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ingdia" />
+
+    <EditText
+        android:id="@+id/dn"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/dia_de_nacimiento"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/mns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ingmes" />
+
+    <EditText
+        android:id="@+id/mn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Mes de nacimiento"/>
+
+    <TextView
+        android:id="@+id/ans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ingano" />
+
+    <EditText
+        android:id="@+id/an"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/a_o_de_nacimiento"/>
+
+    <TextView
+        android:id="@+id/edads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/suedades"
+        />
+
+    <TextView
+        android:id="@+id/edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30pt"
+        />
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Boton" />
+
+</LinearLayout>

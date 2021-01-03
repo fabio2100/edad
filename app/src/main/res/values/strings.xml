@@ -1,0 +1,13 @@
+<resources>
+<string name="app_name">edad</string>
+<string name="Fecha">Día actual</string>
+<string name="fechamescadena">Mes actual</string>
+<string name="fechaanocadena">Año actual</string>
+<string name="ingdia">Ingrese día de nacimiento</string>
+<string name="ingmes">Ingrese mes de nacimiento</string>
+<string name="ingano">Ingrese año de nacimiento</string>
+<string name="suedades">Su edad es:</string>
+<string name="Boton">Ok</string>
+    <string name="dia_de_nacimiento">Dia de nacimiento</string>
+    <string name="a_o_de_nacimiento">Año de nacimiento</string>
+</resources>
